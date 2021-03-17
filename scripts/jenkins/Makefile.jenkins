@@ -214,6 +214,7 @@ test-package-java:
 		multiNodeUtils.sh \
 		h2o-app/ \
 		h2o-core/src/ \
+		h2o-core/LIBS/*.jar \
 		h2o-core/build/resources/ \
 		h2o-core/build/classes/java/ \
 		h2o-core/build/libs/h2o-core-*.jar \
